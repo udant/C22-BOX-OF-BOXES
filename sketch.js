@@ -47,6 +47,7 @@ function draw() {
     background("black");
     // This is the value of your gravity. You can optionally show it to the viewer.
     var fVal = gSlider.value();
+    text("Gravity: " + fVal,300,380);
     console.log("MouseEvent" + MouseEvent);
     // Use a for loop to show all the boxes
     
